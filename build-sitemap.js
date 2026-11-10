@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://component-tree.pages.dev';
+const DOMAIN = 'https://component-tree.pageaura.xyz';
 const KEY = '3d8c2b9b579e4de1860069ec5187b31b';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'component-tree.pages.dev' ||
+    url.hostname.toLowerCase() !== 'component-tree.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
