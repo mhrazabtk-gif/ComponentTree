@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'component-tree.pages.dev';
+const HOST = 'component-tree.pageaura.xyz';
 const KEY = '3d8c2b9b579e4de1860069ec5187b31b';
-const KEY_LOCATION = `https://component-tree.pages.dev/3d8c2b9b579e4de1860069ec5187b31b.txt`;
+const KEY_LOCATION = `https://component-tree.pageaura.xyz/3d8c2b9b579e4de1860069ec5187b31b.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
